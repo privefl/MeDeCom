@@ -2,10 +2,11 @@
 #'
 #' MeDeCom is an R-package that discovers and quantifies latent components
 #' in the DNA methylomes of heterogeneous samples
-#' 
+#'
 #' @references TBA
 #' @import Rcpp pracma gtools gplots parallel
-#' @docType package  
+#' @docType package
 #' @name MeDeCom-package
-#' @useDynLib MeDeCom
+#' @useDynLib MeDeCom, .registration = TRUE
+#' @importFrom Rcpp sourceCpp
 NULL
